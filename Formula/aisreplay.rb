@@ -2,6 +2,7 @@ class Aisreplay < Formula
   desc "Replay Automatic Identification System (AIS) vessel tracking data"
   homepage "https://github.com/nikolajw/ais-replay"
   license "MIT"
+  version "0.2.1"
 
   on_macos do
     on_arm do
