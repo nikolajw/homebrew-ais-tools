@@ -2,17 +2,17 @@ class Aisreplay < Formula
   desc "Replay Automatic Identification System (AIS) vessel tracking data via UDP"
   homepage "https://github.com/nikolajw/ais-replay"
   license "MIT"
-  version "0.3.1"
+  version "0.3.3"
   # Note: Release archives also contain AisFileLoader. Install with 'aisfileloader' formula separately if needed.
 
   on_macos do
     on_arm do
-      url "https://github.com/nikolajw/ais-replay/releases/download/v0.3.1/aisreplay-macos-arm64.tar.gz"
-      sha256 "8fefcf7ff07cd753c6e9796f206ff549208d2bac6731e2dbc1c5f1cf2c9b9fa0"
+      url "https://github.com/nikolajw/ais-replay/releases/download/v0.3.3/aisreplay-macos-arm64.tar.gz"
+      sha256 "1a6f6a15adc3bfa1b2e500933f5b46dc39b5608d8357432b06f5e948ebac8c6f"
     end
     on_intel do
-      url "https://github.com/nikolajw/ais-replay/releases/download/v0.3.1/aisreplay-macos-x64.tar.gz"
-      sha256 "6fdb470a5981345df828a6b584eb32577066a380eb93c06c15a24651e103269a"
+      url "https://github.com/nikolajw/ais-replay/releases/download/v0.3.3/aisreplay-macos-x64.tar.gz"
+      sha256 "23aef0333d7193c06a9a960af059a9734ea68fff53c2624a8fbc95f3e8ee01cf"
     end
   end
 
