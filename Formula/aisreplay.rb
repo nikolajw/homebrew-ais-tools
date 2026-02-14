@@ -5,12 +5,12 @@ class Aisreplay < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/nikolajw/ais-replay/releases/download/v0.2.0/aisreplay-macos-arm64.tar.gz"
-      sha256 "68289b309f4317a22abeeda86062e57186d5f5d0e4a238b416dd86783665c372"
+      url "https://github.com/nikolajw/ais-replay/releases/download/v0.2.1/aisreplay-macos-arm64.tar.gz"
+      sha256 "d474c168765f48c799d9901d18a3f0f90c0ac399e3b7d62574520a40a462ada3"
     end
     on_intel do
-      url "https://github.com/nikolajw/ais-replay/releases/download/v0.2.0/aisreplay-macos-x64.tar.gz"
-      sha256 "8c193f34df459c0d8d38669d29ac7464cb9e8efe02618d71161900f154178f4f"
+      url "https://github.com/nikolajw/ais-replay/releases/download/v0.2.1/aisreplay-macos-x64.tar.gz"
+      sha256 "7e6c629a857b9ae2850f41bf492b6a7e9614bd5b1fffc0372415c6b029fd9e87"
     end
   end
 
