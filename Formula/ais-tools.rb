@@ -16,15 +16,8 @@ class AisTools < Formula
   end
 
   def install
-    # Extract architecture-specific directory
-    arch_dir = if Hardware::CPU.arm?
-      "macos-arm64"
-    else
-      "macos-x64"
-    end
-
-    bin.install "#{arch_dir}/ais-streamer"
-    bin.install "#{arch_dir}/ais-loader"
+    bin.install "ais-streamer"
+    bin.install "ais-loader"
   end
 
   test do
