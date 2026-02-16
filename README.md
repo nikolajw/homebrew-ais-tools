@@ -1,43 +1,43 @@
-# Homebrew Tap for AisReplay
+# Homebrew Tap for ais-tools
 
-This is a Homebrew tap for [AisReplay](https://github.com/nikolajw/ais-replay), a .NET application that replays Automatic Identification System (AIS) vessel tracking data.
+This is a Homebrew tap for [ais-tools](https://github.com/nikolajw/ais-tools), a tool that replays Automatic Identification System (AIS) vessel tracking data.
 
 ## Installation
 
 ```bash
-brew tap nikolajw/aisreplay
-brew install aisreplay
+brew tap nikolajw/ais-tools
+brew install ais-tools
 ```
 
 ## Usage
 
 ```bash
 # Replay from a CSV file
-aisreplay --file data.csv
+aisstreamer --file data.csv
 
 # Download and replay from a specific date
-aisreplay --date 2024-01-15
+aisloader --date 2024-01-15
 
 # Replay with options
-aisreplay --file data.csv --mmsi 220382000 --x-speed 10 --skip-moored
+aisstreamer --file data.csv --mmsi 220382000 --x-speed 10
 
 # Replay in GPS format
-aisreplay --file data.csv --gps
+aisstreamer --file data.csv --gps
 ```
 
-For more information, see the [main repository](https://github.com/nikolajw/ais-replay).
+For more information, see the [main repository](https://github.com/nikolajw/ais-tools).
 
 ## Updating
 
 To update to the latest version:
 
 ```bash
-brew upgrade aisreplay
+brew upgrade ais-tools
 ```
 
 ## Uninstalling
 
 ```bash
-brew uninstall aisreplay
-brew untap nikolajw/aisreplay
+brew uninstall ais-tools
+brew untap nikolajw/ais-tools
 ```
